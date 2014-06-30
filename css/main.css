@@ -25,6 +25,43 @@ iframe{
 	height: 100%;
 }
 
+/* ============================ *\
+	TYPOGRAPHY
+\* ============================ */
+
+p.white{
+	color: #fff;
+}
+
+p.dark{
+	color: #2D2D2C;
+}
+
+p.red{
+	color: #CC5260;
+}
+
+p.light{
+	color: #B2B2B2;
+}
+
+p.dark{
+	color: #505051;
+}
+
+p.thin{
+	font-weight: 100;
+}
+
+p.regular{
+	font-weight: 300 !important;
+}
+
+p.medium{
+	font-weight: 500;
+}
+
+
 
 /* ============================ *\
 	HEADER
@@ -307,6 +344,13 @@ clip-path: polygon(0% 0%, 0% 100%, 73% 100%, 79% 64%,72% 0%);
 	padding: 1em 13em 1em 1em !important;
 }
 
+.highlighted.dark{
+	background: #505051;
+	color: #fff;
+	margin-left: 3em;
+	padding-left: 1.5em !important;
+}
+
 .of-section ul{
 	width: 100%;
 	text-align: right;
@@ -375,14 +419,8 @@ clip-path: polygon(0% 0%, 0% 100%, 73% 100%, 79% 64%,72% 0%);
 	padding: 4em
 }
 
-p.white{
-	color: #fff;
 
-}
 
-.slide3 .one-half__content{
-	
-}
 
 .one-half.img {
 margin-left: -7%;
@@ -393,13 +431,6 @@ margin-left: -7%;
 	height: 100%;
 }
 
-p.dark{
-	color: #2D2D2C;
-}
-
-p.red{
-	color: #CC5260;
-}
 
 .slide3 .one-half.dark-bg{
 	background: #2D2D2C;
@@ -416,5 +447,92 @@ p.red{
 	width: 59%;
 }
 
-.slide3 .one-half.dark-bg
 
+/* ============================ *\
+	SLIDE 4
+\* ============================ */
+
+.slide4 .top-section-white, .slide4 .top-section-dark{
+	display: flex;
+	display: -webkit-flex;
+}
+
+.slide4 .top-section-white{
+	margin: 2em;
+	padding: 2em;
+}
+
+.slide4 .top-section-dark{
+	background: #505051;
+	padding: 4em 4em 2em 4em;
+	margin-bottom: 1em;
+}
+
+.slide4 .top-section-white{
+	border-bottom: 1px solid #CC5260;
+}
+
+.slide4 .bottom-section{
+	margin-left: 8em;
+}
+
+.bottom-section p{
+	margin-bottom: 1.8em;
+}
+
+.slide4 .highlighted{
+	margin-left: 3em !important;
+	padding-left: 1.5em !important;
+}
+
+.reveal .top-section-white blockquote{
+	color: #2D2D2C;
+}
+
+
+.reveal .top-section-dark blockquote{
+	color: #fff;
+}
+
+.slide5 .of.red{
+	width: 20%;
+	clip-path: polygon(0% 0%, 0% 100%, 70% 100%, 90% 0%);
+	-webkit-clip-path: polygon(0% 0%, 0% 100%, 70% 100%, 90% 0%);
+	background: #CC5260;
+	margin-right: -20%;
+}
+
+.slide5 .of.dark{
+	width: 20%;
+	clip-path: polygon(0% 0%, 25% 100%, 100% 100%, 100% 0%);
+	-webkit-clip-path: polygon(0% 0%, 25% 100%, 100% 100%, 100% 0%);
+	background: #575756;
+	margin-left: -20%;
+}
+
+.slide5 .of.red .of-content{
+	margin: 5em;
+	padding-right: 4em;
+}
+.slide5 .of.dark .of-content{
+	margin: 5em;
+	padding-left: 4em;
+}
+.slide5 .of-content p{
+	margin-left: 0;
+	line-height: 1.6; 
+}
+.slide5 .tf{
+	width: 100%;
+}
+
+.slide5 .tf img{
+	width: 100%;
+}
+
+
+.slide5 p.top{
+	padding-bottom: 1em;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 1em;
+}
