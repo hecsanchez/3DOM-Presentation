@@ -288,6 +288,16 @@ body {
 .reveal p {
 	margin-bottom: 10px;
 	line-height: 1.2em;
+		font-weight: 100;
+	font-style: italic;
+	text-transform: uppercase;
+	transform: scale(1.2,1);
+	-webkit-transform: scale(1.2,1);
+	margin-left: 4.6em;
+}
+
+.reveal p.strong {
+font-weight: bold;
 }
 
 .reveal q,
@@ -422,7 +432,7 @@ body {
 }
 
 	.reveal .controls div.navigate-left {
-		left: 0;
+		left: 1em;
 	}
 		.reveal .controls div.navigate-left.fragmented {
 			opacity: 0.3;
