@@ -189,11 +189,12 @@ body {
 
 .reveal .slides section .fragment.highlight-red,
 .reveal .slides section .fragment.highlight-current-red,
+.reveal .slides section .fragment.highlight-current-dark,
 .reveal .slides section .fragment.highlight-green,
 .reveal .slides section .fragment.highlight-current-green,
 .reveal .slides section .fragment.highlight-blue,
 .reveal .slides section .fragment.highlight-current-blue {
-	opacity: 1;
+	
 }
 	.reveal .slides section .fragment.highlight-red.visible {
 		color: #ff2c2d
@@ -205,6 +206,11 @@ body {
 		color: #1b91ff;
 	}
 
+	.reveal .slides section .fragment.highlight-current-white.visible {
+		color: #fff;
+		font-weight: 500;
+	}
+
 .reveal .slides section .fragment.highlight-current-red.current-fragment {
 	color: #ff2c2d
 }
@@ -214,6 +220,11 @@ body {
 .reveal .slides section .fragment.highlight-current-blue.current-fragment {
 	color: #1b91ff;
 }
+
+.reveal .slides section .fragment.highlight-current-white.current-fragment {
+		color: #fff;
+		font-weight: 500;
+	}
 
 
 /*********************************************
